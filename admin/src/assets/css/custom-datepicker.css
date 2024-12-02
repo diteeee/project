@@ -1,0 +1,16 @@
+.custom-datepicker {
+    color: black;
+}
+
+.custom-datepicker input {
+    color: black;
+}
+
+.react-datepicker__header {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.react-datepicker {
+    background-color: white;
+}
