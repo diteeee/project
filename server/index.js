@@ -46,18 +46,6 @@ app.use("/administrators", adminRouter);
 const serviceRouter = require('./routes/Services');
 app.use("/services", serviceRouter);
 
-const lecturerRouter = require('./routes/Lecturers');
-app.use("/lecturers", lecturerRouter);
-
-const lectureRouter = require('./routes/Lectures');
-app.use("/lectures", lectureRouter);
-
-const teamRouter = require('./routes/Teams');
-app.use("/teams", teamRouter);
-
-const playerRouter = require('./routes/Players');
-app.use("/players", playerRouter);
-
 const hospitalRelationsRouter = require('./routes/HospitalRelations');
 app.use("/hospitalRelations", hospitalRelationsRouter);
 
